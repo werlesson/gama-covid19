@@ -419,7 +419,6 @@ li.active a::after {
 }
 
 .footer__column--general .footer__column__subtitle {
-  /* font-weight: 600; */
   font-size: 1rem;
 }
 
@@ -565,4 +564,26 @@ li.active a::after {
   border-radius: 50% 0;
   background-color: var(--primary);
   z-index: -1;
+}
+
+/* CONTATO */
+
+.contato {
+  min-height: calc(100vh - var(--alturaNavbar));
+  padding: 2rem 5rem;
+}
+
+.contato iframe {
+  margin: 0 auto;
+  width: 100%;
+  min-height: 750px;
+}
+
+/* SAIBA MAIS */
+
+.saibamais {
+  min-height: calc(100vh - var(--alturaNavbar));
+  padding: 2rem 5rem;
+  display: flex;
+  flex-direction: column;
 }
