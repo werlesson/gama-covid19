@@ -625,3 +625,25 @@ a {
   text-decoration: unset;
   color: var(--fontColor)
 }
+
+.card-media {
+  background-color: white;
+  box-shadow: var(--shadow);
+  -moz-box-shadow: var(--shadow);
+  -webkit-box-shadow: var(--shadow);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.card-media h1 {
+  font-size: 2rem;
+}
