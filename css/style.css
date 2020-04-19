@@ -587,3 +587,41 @@ li.active a::after {
   display: flex;
   flex-direction: column;
 }
+
+.saibamais .card__list {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.card__list .card__list__item {
+  display: flex;
+  margin: 1rem 0;
+  background-color: white;
+  box-shadow: var(--shadow);
+  -moz-box-shadow: var(--shadow);
+  -webkit-box-shadow: var(--shadow);
+  border-radius: 10px;
+}
+
+.card__list .card__list__item img {
+  width: 10vw;
+  border-radius: 10px 0 0 10px;
+  height: 96px;
+}
+
+.card__list__item .card__list__text {
+  padding: 1rem;
+}
+
+.card__list__text .card__list__title {
+  font-weight: 600;
+  font-family: var(--fontPrimary);
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: unset;
+  color: var(--fontColor)
+}
